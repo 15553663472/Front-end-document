@@ -1,5 +1,5 @@
 module.exports = {
-	title: "FrontEnd Technology",
+	title: "文档中心",
 	themeConfig: {
 		nav: [
 			{
@@ -9,6 +9,14 @@ module.exports = {
 			{
 				text: "Markdown",
 				link: "/markdown/",
+			},
+			{
+				text: "提问的智慧",
+				link: "/How-To-Ask-Questions/",
+			},
+			{
+				text: "程序员延寿指南",
+				link: "/HowToLiveLonger/",
 			},
 		],
 		sidebar: {
@@ -29,6 +37,28 @@ module.exports = {
 						"/markdown/basic/emphasis",
 						"/markdown/basic/blockquotes",
 						"/markdown/basic/list",
+						"/markdown/basic/code",
+						"/markdown/basic/horizontal-rules",
+						"/markdown/basic/links",
+						"/markdown/basic/images",
+						"/markdown/basic/escaping-characters",
+						"/markdown/basic/html",
+					],
+				},
+			],
+			"/markdown/extended": [
+				{
+					title: "Markdown 扩展语法",
+					collapsable: false,
+					children: [
+						"/markdown/extended/availability",
+						"/markdown/extended/table",
+						"/markdown/extended/heading-ids",
+						"/markdown/extended/definition-lists",
+						"/markdown/extended/strikethrough",
+						"/markdown/extended/task-lists",
+						"/markdown/extended/emoji",
+						"/markdown/extended/automatic-url-linking",
 					],
 				},
 			],

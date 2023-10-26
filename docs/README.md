@@ -1,8 +1,8 @@
 ---
 home: true
-title: FrontEnd Technology
-heroText: FrontEnd Technology
-tagline: FrontEnd Technology
+title: 文档中心
+heroText: 乱七八糟都往里面烩
+tagline: 乱七八糟都往里面烩
 actionText: 立即阅读
 actionLink: /regexp/index
 features:
