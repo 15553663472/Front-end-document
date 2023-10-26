@@ -2,9 +2,9 @@
 
 要将单词或短语表示为代码，请将其包裹在反引号 (`` ` ``) 中。
 
-| Markdown 语法                             | HTML                                           | 预览效果                            |
-| ----------------------------------------- | ---------------------------------------------- | ----------------------------------- |
-| `` At the command prompt, type `nano`. `` | At the command prompt, type <code>nano</code>. | At the command prompt, type `nano`. |
+| Markdown 语法                             | HTML                                             | 预览效果                            |
+| ----------------------------------------- | ------------------------------------------------ | ----------------------------------- |
+| `` At the command prompt, type `nano`. `` | `At the command prompt, type <code>nano</code>.` | At the command prompt, type `nano`. |
 
 ### 转义反引号
 
@@ -21,25 +21,21 @@
 
 Markdown 基本语法允许您通过将行缩进四个空格或一个制表符来创建代码块。如果发现不方便，请尝试使用受保护的代码块。根据 Markdown 处理器或编辑器的不同，您将在代码块之前和之后的行上使用三个反引号（ <code>\`\`\`</code> ）或三个波浪号（`~~~`）。
 
-````
 ```
-{
-"firstName": "John",
-"lastName": "Smith",
-"age": 25
-}
+	{
+		"firstName": "John",
+		"lastName": "Smith",
+		"age": 25
+	}
 ```
-````
 
 呈现的输出如下所示：
 
-```
-{
-"firstName": "John",
-"lastName": "Smith",
-"age": 25
-}
-```
+    {
+    	"firstName": "John",
+    	"lastName": "Smith",
+    	"age": 25
+    }
 
 ### 语法高亮
 

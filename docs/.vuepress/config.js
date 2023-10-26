@@ -62,13 +62,6 @@ module.exports = {
 					],
 				},
 			],
-			"/markdown/": [
-				{
-					title: "Markdown语法速查表",
-					collapsable: false,
-					children: ["/markdown/"],
-				},
-			],
 		},
 		sidebarDepth: 0,
 		lastUpdated: "Last Updated",
