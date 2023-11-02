@@ -11,6 +11,10 @@ module.exports = {
 				link: "/markdown/",
 			},
 			{
+				text: "CSS问题",
+				link: "/CSS/",
+			},
+			{
 				text: "提问的智慧",
 				link: "/How-To-Ask-Questions/",
 			},
@@ -60,6 +64,12 @@ module.exports = {
 						"/markdown/extended/emoji",
 						"/markdown/extended/automatic-url-linking",
 					],
+				},
+			],
+			"/CSS/": [
+				{
+					title: "CSS 基础问题",
+					children: ["/CSS/basic/tabular-nums"],
 				},
 			],
 		},
