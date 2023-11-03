@@ -15,6 +15,14 @@ module.exports = {
 				link: "/CSS/",
 			},
 			{
+				text: "JS问题",
+				link: "/JS/",
+			},
+			{
+				text: "UniApp问题",
+				link: "/uniapp/",
+			},
+			{
 				text: "提问的智慧",
 				link: "/How-To-Ask-Questions/",
 			},
@@ -70,6 +78,12 @@ module.exports = {
 				{
 					title: "CSS 基础问题",
 					children: ["/CSS/basic/tabular-nums"],
+				},
+			],
+			"/uniapp/": [
+				{
+					title: "uniapp 问题集合",
+					children: ["/uniapp/lockOrientation"],
 				},
 			],
 		},
