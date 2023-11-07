@@ -10,9 +10,7 @@ http://www.example.com
 
 [http://www.example.com](http://www.example.com)
 
-### 禁用自动 URL 链接
-
----
+## 禁用自动 URL 链接
 
 如果您不希望自动链接 URL，则可以通过将 URL 表示为带反引号的代码来删除该链接。
 

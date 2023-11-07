@@ -16,7 +16,7 @@ module.exports = {
 			},
 			{
 				text: "JS问题",
-				link: "/JS/",
+				link: "/JavaScript/",
 			},
 			{
 				text: "UniApp问题",
@@ -36,6 +36,7 @@ module.exports = {
 				{
 					title: "正则表达式",
 					collapsable: false,
+					sidebarDepth: 2,
 					children: ["/regexp/", "/regexp/metachar", "/regexp/operator", "/regexp/example"],
 				},
 			],
@@ -43,6 +44,7 @@ module.exports = {
 				{
 					title: "Markdown 基本语法",
 					collapsable: false,
+					sidebarDepth: 2,
 					children: [
 						"/markdown/basic/headings",
 						"/markdown/basic/line-break",
@@ -61,6 +63,7 @@ module.exports = {
 			"/markdown/extended": [
 				{
 					title: "Markdown 扩展语法",
+					sidebarDepth: 2,
 					collapsable: false,
 					children: [
 						"/markdown/extended/availability",
@@ -77,7 +80,9 @@ module.exports = {
 			"/CSS/": [
 				{
 					title: "CSS 基础问题",
-					children: ["/CSS/basic/tabular-nums"],
+					collapsable: false,
+					sidebarDepth: 2,
+					children: [["/CSS/", "CSS问题"], "/CSS/basic/tabular-nums"],
 				},
 			],
 			"/uniapp/": [
@@ -86,8 +91,16 @@ module.exports = {
 					children: ["/uniapp/lockOrientation"],
 				},
 			],
+			"/JavaScript/1-loc": [
+				{
+					title: "JavaScript 实用程序",
+					sidebarDepth: 2,
+					collapsable: false,
+					children: ["/JavaScript/1-loc/array", "/JavaScript/1-loc/dom"],
+				},
+			],
 		},
-		sidebarDepth: 0,
+		sidebarDepth: 2,
 		lastUpdated: "Last Updated",
 		smoothScroll: true,
 	},

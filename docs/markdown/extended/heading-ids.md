@@ -12,9 +12,7 @@ HTML 看起来像这样：
 <h3 id="custom-id">My Great Heading</h3>
 ```
 
-### 链接到标题 ID (#headid)
-
----
+## 链接到标题 ID (#headid)
 
 通过创建带有数字符号（`#`）和自定义标题 ID 的`[标准链接](/basic-syntax/links.html)`，可以链接到文件中具有自定义 ID 的标题。
 
