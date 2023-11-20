@@ -11,16 +11,25 @@ module.exports = {
 				link: "/markdown/",
 			},
 			{
-				text: "CSS问题",
-				link: "/CSS/",
-			},
-			{
-				text: "JS问题",
-				link: "/JavaScript/",
-			},
-			{
-				text: "UniApp问题",
-				link: "/uniapp/",
+				text: "前端问题",
+				items: [
+					{
+						text: "CSS问题",
+						link: "/CSS/",
+					},
+					{
+						text: "JS问题",
+						link: "/JavaScript/",
+					},
+					{
+						text: "UniApp问题",
+						link: "/uniapp/",
+					},
+					{
+						text: "SVG问题",
+						link: "/svg/",
+					},
+				],
 			},
 			{
 				text: "提问的智慧",
@@ -88,7 +97,7 @@ module.exports = {
 			"/uniapp/": [
 				{
 					title: "uniapp 问题集合",
-					children: ["/uniapp/lockOrientation"],
+					children: ["/uniapp/lockOrientation", "/uniapp/onTabItemTap"],
 				},
 			],
 			"/JavaScript/1-loc": [
@@ -96,7 +105,15 @@ module.exports = {
 					title: "JavaScript 实用程序",
 					sidebarDepth: 2,
 					collapsable: false,
-					children: ["/JavaScript/1-loc/array", "/JavaScript/1-loc/dom"],
+					children: ["/JavaScript/1-loc/array", "/JavaScript/1-loc/dom", "/JavaScript/1-loc/date-time", "/JavaScript/1-loc/misc"],
+				},
+			],
+			"/svg/": [
+				{
+					title: "SVG",
+					collapsable: false,
+					sidebarDepth: 2,
+					children: ["/svg/teach"],
 				},
 			],
 		},
