@@ -34,3 +34,17 @@ onTabItemTap(options => {
 
 > 注意, 每次 tabbar 被点击都会触发该事件, 所以如果想要实现跳转页面不刷新, 在页面内点击刷新的话, 需要配合 `onLoad` / `onShow` 事件  
 > 生命周期触发顺序为: `onLoad` -> `onShow` -> `onTabItemTap`
+
+```javascript
+let timer = 0
+onShow(() => {
+	timer = 0
+})
+
+onTabItemTap(async () => {
+	if (!timer++) {
+		return
+	}
+	// todo something
+})
+```
