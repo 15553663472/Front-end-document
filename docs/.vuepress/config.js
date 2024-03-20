@@ -105,7 +105,20 @@ module.exports = {
 					title: "JavaScript 实用程序",
 					sidebarDepth: 2,
 					collapsable: false,
-					children: ["/JavaScript/1-loc/array", "/JavaScript/1-loc/dom", "/JavaScript/1-loc/date-time", "/JavaScript/1-loc/misc"],
+					children: [
+						"/JavaScript/1-loc/array",
+						"/JavaScript/1-loc/dom",
+						"/JavaScript/1-loc/date-time",
+						"/JavaScript/1-loc/misc",
+					],
+				},
+			],
+			"/JavaScript/common": [
+				{
+					title: "JavaScript 常用知识",
+					sidebarDepth: 2,
+					collapsable: false,
+					children: ["/JavaScript/common/toString"],
 				},
 			],
 			"/svg/": [
