@@ -39,6 +39,14 @@ module.exports = {
 				text: "程序员延寿指南",
 				link: "/HowToLiveLonger/",
 			},
+			{
+				text: "AI",
+				link: "/AI/",
+			},
+			{
+				text: "碎碎念",
+				link: "/log/",
+			},
 		],
 		sidebar: {
 			"/regexp/": [
@@ -127,6 +135,14 @@ module.exports = {
 					collapsable: false,
 					sidebarDepth: 2,
 					children: ["/svg/teach"],
+				},
+			],
+			"/log/": [
+				{
+					title: "碎碎念",
+					collapsable: false,
+					sidebarDepth: 2,
+					children: ["/log/record/2025-07-11"],
 				},
 			],
 		},
